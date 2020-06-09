@@ -1,0 +1,92 @@
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.menu__item {
+    margin-bottom: 39px;
+}
+
+.menu__link:hover {
+    color:black;
+    transition: color .5s;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    color:#5a73b2;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+    transition: color .5s;
+}
+
+.menu__pic {
+    content:"";
+    margin-right: 13px;
+    height: 18px;
+    width: 18px;
+    background: no-repeat;
+}
+
+
+.menu__item-plane .menu__pic {
+    width: 17px; height: 18px;
+    background: url('../../img/css_sprites.png') -10px -128px;
+}
+
+.menu__item-plane .menu__pic:hover{
+    width: 17px; height: 18px;
+    background: url('../../img/css_sprites.png') -47px -128px;
+}
+
+.menu__item-star .menu__pic {
+    width: 20px; 
+    height: 18px;
+    background: url('../../img/css_sprites.png') -136px -90px no-repeat;
+}
+
+.menu__item-star .menu__link:hover .menu__pic{
+    background: url('../../img/css_sprites.png') -96px -50px no-repeat;
+    width: 20px; height: 18px;
+    transition: opacity 0.5s;
+}
+
+.menu__item-hat .menu__pic {
+    width: 23px; height: 18px;
+    background: url('../../img/css_sprites.png') -10px -10px no-repeat;
+    
+}
+
+.menu__item-hat .menu__link:hover .menu__pic {
+    width: 23px; height: 18px;
+    background: url('../../img/css_sprites.png') -53px -10px no-repeat;
+
+}
+
+.menu__item--active .menu__link {
+    color: black;
+}
+
+.menu__item-star.menu__item--active .menu__pic{
+    width: 20px; height: 18px;
+    background: url('../../img/css_sprites.png') -96px -50px;
+}
+
+.menu__item-hat.menu__item--active .menu__pic{
+    width: 23px; height: 18px;
+    background: url('../../img/css_sprites.png') -53px -10px;
+}
+
+.menu__item-plane.menu__item--active .menu__pic{
+    width: 17px; height: 18px;
+    background: url('../../img/css_sprites.png') -47px -128px;
+}

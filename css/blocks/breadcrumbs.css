@@ -1,0 +1,25 @@
+.breadcrumbs__list {
+    display: inline-flex;
+    margin-top:45px;
+    font-style:italic;
+    font-size: 14px;
+    font-weight: 100;
+    
+}
+
+.breadcrumbs__item-link {
+    padding-right: 3px;
+    color: #3a5bbf;
+}
+
+.breadcrumbs__item-link--active {
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumbs__slash {
+    text-decoration: none;
+    color: black;
+    padding-right: 3px;
+}
+

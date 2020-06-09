@@ -1,0 +1,38 @@
+.footer {
+    background: #5973b1;
+    width: 100%;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+    height: 76px;
+    color: white;
+    padding-left:20x;
+    padding-right:20px;
+}
+
+.copyright {
+    width: 240px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright__link {
+    color:white;
+    font-weight: bold;
+}
+
+.copyright__student {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
